@@ -1,0 +1,47 @@
+[
+    {
+        "id": "7efe155.1d7f8ec",
+        "type": "ui_button",
+        "z": "3fd2af1a.0618d8",
+        "name": "",
+        "group": "9ffcf19d.8fc1a8",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "button",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "x": 190,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9ffcf19d.8fc1a8",
+        "type": "ui_group",
+        "z": "",
+        "name": "Default",
+        "tab": "8a1fc000.03de88",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "8a1fc000.03de88",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Environment",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    }
+]

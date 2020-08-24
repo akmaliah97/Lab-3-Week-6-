@@ -1,0 +1,19 @@
+[
+    {
+        "id": "27978292.255aee",
+        "type": "function",
+        "z": "7e5b7f5c.95ce2",
+        "name": "Env. Data",
+        "func": "msg.payload = {'Data': {'Environment': msg.payload}};\nmsg.deviceType = 'senseHat';\nmsg.deviceId = 'senbakmaliah';\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 590,
+        "y": 320,
+        "wires": [
+            [
+                "1751a8b1.74b9f7",
+                "49a0867d.760508"
+            ]
+        ]
+    }
+]
